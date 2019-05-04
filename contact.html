@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Contact info</title>
+    <!-- short cut icon here-->
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400;700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+  <body>
+    <div>
+      <!-- Header including the logo and the main navigation -->
+     <header class="page-header">
+      <!--Add your logo here-->
+      <img src="img/mai-saito-logo.png" alt="Mai Saito Logo" class="page-header_logo" >
+      <nav role="navigation" class="page-header_item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list_item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list_item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+        </li>
+      </ul>
+     </nav>
+    </header>
+    </div>
+   <!--contact information here-->
+   <div>
+    <h1>contact</h1>
+      CareerFoundry GmbH <br>
+      Kopenicker Str. 126 <br>
+      10179 Berlin <br>
+      Deutschland <br>
+      <!--Add map here-->
+      <img src="https://via.placeholder.com/150x150" alt="">
+      <br>
+      <a href="tel:+493048492016">Tel +49 30 4849 2016 </a><br>
+      <a href="skype:hello.careerfoundry">Skype hello.CareerFoundry </a><br>
+      <a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a><br>
+      <br>
+      <a href="mailto:mai.s@hotmail.co.jp">Contact me</a>
+      <!--user contact form here-->
+      <form action="#" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">E-mail: </label>
+        <input type="email" id="contact-email" required><br>
+        <br>
+        <label class="standard-label" for="contact-phone">Telephone: </label>
+        <input type="tel" id="contact-phone"　pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+        <br>
+        <label class="standard-label" for="write-message">Message: </label>
+        <textarea maxlength="240" id="write-message" required></textarea><br>
+        <br>
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+      <!--Github logo-->
+      <img src="img/github_icon.svg" alt="Github logo width=30px height=30px">
+      <!--Twitter logo-->
+      <img src="img/twitter_icon.svg" alt="Twitter logo width=30px height=30px">
+      <!--LinkedIn logo-->
+      <a href="https://www.linkedin.com/in/mai-saito-3019b7168/" target="_blank">
+      <img src="img/linkedin_icon.svg" alt="LinkedIn logo width=30px height=30px">
+      </a>
+    </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+  </html>
