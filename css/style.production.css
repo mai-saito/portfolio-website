@@ -301,6 +301,11 @@ table {
 
 /***** Contact Page *****/
 
+.contact {
+  margin: auto;
+  text-align: center;
+}
+
 #contact-form {
   margin-top: 30px;
 }
