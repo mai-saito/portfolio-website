@@ -37,6 +37,7 @@ h3 {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 /***** General *****/
@@ -176,6 +177,10 @@ div {
   box-sizing: border-box;
 }
 
+a.button {
+  color: white;
+}
+
 /***** About Page *****/
 
 .about {
@@ -192,6 +197,10 @@ span {
 
 .about-list {
   list-style-type: none;
+}
+
+ul.about-list {
+  padding-inline-start: unset;
 }
 
 table {
@@ -314,6 +323,12 @@ table {
 
 #contact-form {
   margin-top: 30px;
+}
+
+#contact-email,
+#contact-phone,
+#write-message {
+  border: 1px solid var(--secondary-color);
 }
 
 /***** Work Page *****/
